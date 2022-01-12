@@ -1,0 +1,34 @@
+<!DOCTYPE html> 
+<html lang="en">
+    <head>
+        <title>Currency Exchange</title>
+        <script src="currency.js"></script>
+        <style>
+            h1 {
+                color: blue;
+                text-align: center;
+            }
+            #formbox {
+                text-align: center;
+                height: 60px;
+            }
+            .large {
+                font-size: 16pt;
+                height: 30px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>EUR Currency Exchange (real time)</h1>
+        <div id="formbox">
+            <form autocomplete="off">
+                <input autofocus id="currency" type="text" class="large" placeholder="Foreign Currency (3 chars)">
+                <input id="amount" type="number" step="any" class="large" placeholder="EUR amounts">
+                <input id="convert" type="submit" class="large" value="Convert">
+            </form>
+        </div>
+        <hr>
+        <!-- below behave according to js file -->
+        <div id="result"></div>
+    </body>
+</html>
