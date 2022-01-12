@@ -1,5 +1,5 @@
-# Currency Exchange Documentation
- Calculate Euro in other currencies amounts. Use real-time rate through API provided by https://exchangeratesapi.io/
+# Currency Convertor Documentation
+ Calculate Euro in other currencies amounts (real time). Use real-time rate through API provided by https://exchangeratesapi.io/
  
 # Quick Start
 Open currency.html file in the local browser
