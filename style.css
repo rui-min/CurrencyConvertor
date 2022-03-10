@@ -1,0 +1,32 @@
+/* tag selector */
+h1 {
+    color: blue;
+    text-align: center;
+}
+/* id selector */
+#formbox {
+    text-align: center;
+    height: 60px;
+}
+/* class selector */
+.large {
+    font-size: 16pt;
+    height: 30px;
+}
+#app {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+#problem {
+    font-size: 72px;
+}
+
+#winner {
+    font-size: 72px;
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
